@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91312A62B3D51B4006534E1 /* ZadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91312A52B3D51B4006534E1 /* ZadApp.swift */; };
+		C91312A82B3D51B4006534E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91312A72B3D51B4006534E1 /* ContentView.swift */; };
+		C91312AA2B3D51B6006534E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91312A92B3D51B6006534E1 /* Assets.xcassets */; };
+		C91312AD2B3D51B6006534E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91312AC2B3D51B6006534E1 /* Preview Assets.xcassets */; };
+		C91312B72B3D51B6006534E1 /* ZadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91312B62B3D51B6006534E1 /* ZadTests.swift */; };
+		C91312C12B3D51B6006534E1 /* ZadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91312C02B3D51B6006534E1 /* ZadUITests.swift */; };
+		C91312C32B3D51B6006534E1 /* ZadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91312C22B3D51B6006534E1 /* ZadUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C91312B32B3D51B6006534E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C913129A2B3D51B4006534E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C91312A12B3D51B4006534E1;
+			remoteInfo = Zad;
+		};
+		C91312BD2B3D51B6006534E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C913129A2B3D51B4006534E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C91312A12B3D51B4006534E1;
+			remoteInfo = Zad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C91312A22B3D51B4006534E1 /* Zad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91312A52B3D51B4006534E1 /* ZadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadApp.swift; sourceTree = "<group>"; };
+		C91312A72B3D51B4006534E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C91312A92B3D51B6006534E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C91312AC2B3D51B6006534E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C91312B22B3D51B6006534E1 /* ZadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91312B62B3D51B6006534E1 /* ZadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadTests.swift; sourceTree = "<group>"; };
+		C91312BC2B3D51B6006534E1 /* ZadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91312C02B3D51B6006534E1 /* ZadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadUITests.swift; sourceTree = "<group>"; };
+		C91312C22B3D51B6006534E1 /* ZadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C913129F2B3D51B4006534E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91312AF2B3D51B6006534E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91312B92B3D51B6006534E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C91312992B3D51B4006534E1 = {
+			isa = PBXGroup;
+			children = (
+				C91312A42B3D51B4006534E1 /* Zad */,
+				C91312B52B3D51B6006534E1 /* ZadTests */,
+				C91312BF2B3D51B6006534E1 /* ZadUITests */,
+				C91312A32B3D51B4006534E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C91312A32B3D51B4006534E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C91312A22B3D51B4006534E1 /* Zad.app */,
+				C91312B22B3D51B6006534E1 /* ZadTests.xctest */,
+				C91312BC2B3D51B6006534E1 /* ZadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C91312A42B3D51B4006534E1 /* Zad */ = {
+			isa = PBXGroup;
+			children = (
+				C91312A52B3D51B4006534E1 /* ZadApp.swift */,
+				C91312A72B3D51B4006534E1 /* ContentView.swift */,
+				C91312A92B3D51B6006534E1 /* Assets.xcassets */,
+				C91312AB2B3D51B6006534E1 /* Preview Content */,
+			);
+			path = Zad;
+			sourceTree = "<group>";
+		};
+		C91312AB2B3D51B6006534E1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C91312AC2B3D51B6006534E1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C91312B52B3D51B6006534E1 /* ZadTests */ = {
+			isa = PBXGroup;
+			children = (
+				C91312B62B3D51B6006534E1 /* ZadTests.swift */,
+			);
+			path = ZadTests;
+			sourceTree = "<group>";
+		};
+		C91312BF2B3D51B6006534E1 /* ZadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C91312C02B3D51B6006534E1 /* ZadUITests.swift */,
+				C91312C22B3D51B6006534E1 /* ZadUITestsLaunchTests.swift */,
+			);
+			path = ZadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C91312A12B3D51B4006534E1 /* Zad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91312C62B3D51B6006534E1 /* Build configuration list for PBXNativeTarget "Zad" */;
+			buildPhases = (
+				C913129E2B3D51B4006534E1 /* Sources */,
+				C913129F2B3D51B4006534E1 /* Frameworks */,
+				C91312A02B3D51B4006534E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zad;
+			productName = Zad;
+			productReference = C91312A22B3D51B4006534E1 /* Zad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C91312B12B3D51B6006534E1 /* ZadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91312C92B3D51B6006534E1 /* Build configuration list for PBXNativeTarget "ZadTests" */;
+			buildPhases = (
+				C91312AE2B3D51B6006534E1 /* Sources */,
+				C91312AF2B3D51B6006534E1 /* Frameworks */,
+				C91312B02B3D51B6006534E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C91312B42B3D51B6006534E1 /* PBXTargetDependency */,
+			);
+			name = ZadTests;
+			productName = ZadTests;
+			productReference = C91312B22B3D51B6006534E1 /* ZadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C91312BB2B3D51B6006534E1 /* ZadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91312CC2B3D51B6006534E1 /* Build configuration list for PBXNativeTarget "ZadUITests" */;
+			buildPhases = (
+				C91312B82B3D51B6006534E1 /* Sources */,
+				C91312B92B3D51B6006534E1 /* Frameworks */,
+				C91312BA2B3D51B6006534E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C91312BE2B3D51B6006534E1 /* PBXTargetDependency */,
+			);
+			name = ZadUITests;
+			productName = ZadUITests;
+			productReference = C91312BC2B3D51B6006534E1 /* ZadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C913129A2B3D51B4006534E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					C91312A12B3D51B4006534E1 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					C91312B12B3D51B6006534E1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = C91312A12B3D51B4006534E1;
+					};
+					C91312BB2B3D51B6006534E1 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = C91312A12B3D51B4006534E1;
+					};
+				};
+			};
+			buildConfigurationList = C913129D2B3D51B4006534E1 /* Build configuration list for PBXProject "Zad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C91312992B3D51B4006534E1;
+			productRefGroup = C91312A32B3D51B4006534E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C91312A12B3D51B4006534E1 /* Zad */,
+				C91312B12B3D51B6006534E1 /* ZadTests */,
+				C91312BB2B3D51B6006534E1 /* ZadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C91312A02B3D51B4006534E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91312AD2B3D51B6006534E1 /* Preview Assets.xcassets in Resources */,
+				C91312AA2B3D51B6006534E1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91312B02B3D51B6006534E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91312BA2B3D51B6006534E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C913129E2B3D51B4006534E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91312A82B3D51B4006534E1 /* ContentView.swift in Sources */,
+				C91312A62B3D51B4006534E1 /* ZadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91312AE2B3D51B6006534E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91312B72B3D51B6006534E1 /* ZadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91312B82B3D51B6006534E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91312C32B3D51B6006534E1 /* ZadUITestsLaunchTests.swift in Sources */,
+				C91312C12B3D51B6006534E1 /* ZadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C91312B42B3D51B6006534E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C91312A12B3D51B4006534E1 /* Zad */;
+			targetProxy = C91312B32B3D51B6006534E1 /* PBXContainerItemProxy */;
+		};
+		C91312BE2B3D51B6006534E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C91312A12B3D51B4006534E1 /* Zad */;
+			targetProxy = C91312BD2B3D51B6006534E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C91312C42B3D51B6006534E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C91312C52B3D51B6006534E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C91312C72B3D51B6006534E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zad/Preview Content\"";
+				DEVELOPMENT_TEAM = MBLVKU6SRR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = h.com.Zad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C91312C82B3D51B6006534E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zad/Preview Content\"";
+				DEVELOPMENT_TEAM = MBLVKU6SRR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = h.com.Zad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C91312CA2B3D51B6006534E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MBLVKU6SRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = h.com.ZadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zad";
+			};
+			name = Debug;
+		};
+		C91312CB2B3D51B6006534E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MBLVKU6SRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = h.com.ZadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zad";
+			};
+			name = Release;
+		};
+		C91312CD2B3D51B6006534E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MBLVKU6SRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = h.com.ZadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zad;
+			};
+			name = Debug;
+		};
+		C91312CE2B3D51B6006534E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MBLVKU6SRR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = h.com.ZadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C913129D2B3D51B4006534E1 /* Build configuration list for PBXProject "Zad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91312C42B3D51B6006534E1 /* Debug */,
+				C91312C52B3D51B6006534E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91312C62B3D51B6006534E1 /* Build configuration list for PBXNativeTarget "Zad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91312C72B3D51B6006534E1 /* Debug */,
+				C91312C82B3D51B6006534E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91312C92B3D51B6006534E1 /* Build configuration list for PBXNativeTarget "ZadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91312CA2B3D51B6006534E1 /* Debug */,
+				C91312CB2B3D51B6006534E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91312CC2B3D51B6006534E1 /* Build configuration list for PBXNativeTarget "ZadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91312CD2B3D51B6006534E1 /* Debug */,
+				C91312CE2B3D51B6006534E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C913129A2B3D51B4006534E1 /* Project object */;
+}
